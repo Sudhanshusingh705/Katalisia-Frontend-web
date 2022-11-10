@@ -9,7 +9,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container d-flex">
                     <div className="navbar-brand text-white d-flex">
-                        <img src={logo} className='logo'></img>
+                        <img src={logo} alt='logo' />
                         <h3 className='title'>Katalisia</h3>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -20,17 +20,17 @@ const Navbar = () => {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link to='/'>
-                                    <a className="nav-link text-white" aria-current="page" href="#">Home</a>
+                                    <Link className="nav-link text-white" aria-current="page" to="#">Home</Link>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Feature</a>
+                                <Link className="nav-link text-white" to="#">Feature</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" aria-current="page" href="#">About</a>
+                                <Link className="nav-link text-white" aria-current="page" to="#">About</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">Contact</a>
+                                <Link className="nav-link text-white" to="#">Contact</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to='/signup'>
