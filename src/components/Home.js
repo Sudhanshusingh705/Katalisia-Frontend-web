@@ -17,7 +17,7 @@ const Home = () => {
             </div>
           </div>
           <div className='rightContent'>
-            <img src='https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=600'></img>
+            <img src='https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=600' alt='#'/>
           </div>
         </div>
       </div>
